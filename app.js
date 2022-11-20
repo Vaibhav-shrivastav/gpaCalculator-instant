@@ -42,7 +42,7 @@
     str+= `    
     <button id="button" class="btn btn-primary">Calculate</button>
     <p id="alert" class="btn btn-danger">Please enter all values correctly</p>
-    <hr>
+    <hr id="scro">
     <h5>RESULT</h5><br>
     <span class="p-4 rounded-circle bg-success bg-gradient text-white" id="res"></span>
     `;
@@ -52,7 +52,9 @@
     
     document.getElementById('button').addEventListener('click', calculateResult);
     
+    
     function calculateResult(e){
+        document.getElementById('first').scrollIntoView({behavior: 'smooth'});
         console.log('hi');
         var sum = 0;
         var cre = 1;
