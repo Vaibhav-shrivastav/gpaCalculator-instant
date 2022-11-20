@@ -12,7 +12,7 @@
     document.getElementById('val').addEventListener('keyup',function(){
         console.log('hi');
         var str = ``;
-        var val = document.getElementById('val').value ;
+        val = document.getElementById('val').value ;
     
     for(var i = 1;i<=val;i++){
         str+=`
@@ -40,11 +40,8 @@
         `;
     }
     str+= `    
-    <button id="button" class="btn btn-primary">Calculate</button>
+    <button id="button" class="btn btn-primary">Calculate</button><br><br>
     <p id="alert" class="btn btn-danger">Please enter all values correctly</p>
-    <hr id="scro">
-    <h5>RESULT</h5><br>
-    <span class="p-4 rounded-circle bg-success bg-gradient text-white" id="res"></span>
     `;
     
     
@@ -54,10 +51,15 @@
     
     
     function calculateResult(e){
-        document.getElementById('first').scrollIntoView({behavior: 'smooth'});
+        var strres = `<hr id="scro">
+        <h5 id="reshead">RESULT</h5><br>
+        <span class="p-4 rounded-circle bg-dark bg-gradient text-white" id="res"></span>`;
+
+        
+        
         console.log('hi');
         var sum = 0;
-        var cre = 1;
+        var cre = 0;
     
         for(var i = 1;i<=val;i++){
     
@@ -84,6 +86,8 @@
             
 
         }else{
+            document.getElementById('firstres').innerHTML = strres;
+            document.getElementById('first').scrollIntoView({behavior: 'smooth'});
             
             document.getElementById('alert').style.display = 'none';
 
