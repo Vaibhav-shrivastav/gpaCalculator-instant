@@ -87,11 +87,11 @@
 
         }else{
             document.getElementById('firstres').innerHTML = strres;
-            document.getElementById('first').scrollIntoView({behavior: 'smooth'});
             
             document.getElementById('alert').style.display = 'none';
 
             document.getElementById('res').innerHTML = result.toFixed(1) ;
+            document.getElementById('first').scrollIntoView({behavior: 'smooth'});
         }
         
         
