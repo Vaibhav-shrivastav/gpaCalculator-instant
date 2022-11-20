@@ -13,6 +13,7 @@
         console.log('hi');
         var str = ``;
         val = document.getElementById('val').value ;
+        document.getElementById('gpa-head').scrollIntoView({behavior: 'smooth'});
     
     for(var i = 1;i<=val;i++){
         str+=`
