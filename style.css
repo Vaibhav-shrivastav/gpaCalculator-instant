@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+#tulsi{
+    clip-path: circle(45%);
+    height: 225px;
+}
+#head-tul{
+    font-family: 'Jost', Courier, monospace;
+}
+#in, #insta, #medium{
+    height: 20px;
+}
+#in1, #insta1, #wp1{
+    height: 30px;
+}
+#foot-img{
+    height: 40px;
+}
+#cred-head, #cont-head{
+    text-decoration: underline;
+    font-family: 'Jost', Courier, monospace;
+    font-size: 24px;
+}
+#head-logo{
+    height: 45px;
+}
+.VIT{
+    font-family: 'Jost', Courier, monospace;
+}
+#display-cgpa{
+    display: none;
+    
+}
+#val, #valc{
+    border-radius: 5px;
+    padding: 5px;
+}
+#gpa-head, #cgpa-head{
+    font-family: 'Poppins', Courier, monospace;
+}
+#alert{
+    display: none;
+}
+#gpa{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    /* background-image: linear-gradient(to right, greenyellow, yellow); */
+}
+#first{
+    padding-bottom: 100px;
+}
+#Grade{
+    padding: 10px;
+}
+#info{
+    height: 300px;
+}
+@media only screen and (max-width:500px){
+    #info{
+        display: none;
+    }
+}

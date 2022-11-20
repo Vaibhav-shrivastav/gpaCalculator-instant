@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./media/favi.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CGPA Calculator - VIT Bhopal University</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Poppins:wght@200&family=Jost&family=Quicksand&family=Rubik+Wet+Paint&family=Splash&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="logo text-center shadow p-3 mb-5 bg-white rounded mx-1">
+            <img id="head-logo"  src="./media/name-logo.png" alt="">
+            
+    </nav>
+    <div class="container">
+        <p class="VIT text-center">VIT Bhopal Exculsive!</p>
+        <br> 
+        
+        <div class="content text-center">
+            <div class="row">
+                <div id="gpa" class="col shadow p-3 mb-5 rounded mx-1 ">
+                    GPA Calculator
+                </div>
+                <!-- <div id="cgpa" class="col shadow p-3 mb-5 rounded mx-1">
+                    CGPA Calculator
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="cal" class="row ">
+            <div id="info" class="col text-center">
+                <h2 id="info-head">GPA Calculator</h2>
+                <!-- <p>Calculate your scores now!</p>
+                <p>1) Enter number of courses registered</p>
+                <p>2) Select grades and credits, according to your scores</p>
+                <p>3) Hit the Calculate button and boom!</p> -->
+                <img id="info" src="./media/info2.png" alt="">
+
+
+
+            </div>
+            <div class="col">
+                <div class="container text-center">
+                    <div id="display-gpa" class="display">
+                    <h6 id="gpa-head" class="text-secondary">Enter number of courses</h6>
+                    <input type="number" id="val" min="1" value="1"><br><br>
+                    <div id="first">
+            
+                    </div>
+                </div>
+                <div id="display-cgpa" class="display">
+                    <h6 id="cgpa-head" class="text-secondary">Enter number of Semesters</h6>
+                    <input type="number" id="valc" min="1" value="1"><br><br>
+                    <div id="firstc">
+            
+                    </div>
+                </div><br><br>
+                <span id="alert" class="btn btn-danger">Please enter all values correctly</span>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="container">
+        <h4 class="" id="cred-head">Contributors</h4><br>
+        <div class="row text-center">
+            <div class="col shadow p-3 mb-5 bg-white rounded mx-5">
+                <img id="tulsi" src="./media/vaibh.jpg" alt=""><br>
+                <h5 id="head-tul">Vaibhav Shrivastav</h5>
+                <p>Co-Founder - Focal</p>
+                <a href="https://www.linkedin.com/in/vaibhav-shrivastav-84057717b/" target="_blank" class="mx-1"><img id="in" src="./media/linkedin1.png" alt=""></a>
+                <a href="https://www.instagram.com/_vaibhav_shrivastav__/"  target="_blank" class="mx-1"><img id="insta" src="./media/instagram.png" alt=""></a>
+                <a href="https://medium.com/@Vaibhav-shrivastav"  target="_blank" class="mx-1"><img id="in" src="./media/medium.webp" alt=""></a>
+            </div>
+            <div class="col shadow p-3 mb-5 bg-white rounded mx-5">
+                <img id="tulsi" src="./media/tulsi.png" alt=""><br>
+                <h5 id="head-tul">Tulsi Patil</h5>
+                <p>Co-Founder - Focal</p>
+                <a href="https://www.linkedin.com/in/tulsipatil/"  target="_blank"><img id="in" src="./media/linkedin1.png" alt=""></a>
+            </div><hr style="visibility: hidden;">
+            <div class="col shadow p-3 mb-5 bg-white rounded mx-5">
+                <img id="tulsi" src="./media/Aditya.png" alt=""><br>
+                <h5 id="head-tul">Aditya Bhate</h5>
+                <p>Technical Lead(Focal)</p>
+                <a href="https://www.linkedin.com/in/aditya-bhate-89ab7221b/"  target="_blank"><img id="in" src="./media/linkedin1.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="head text-center">
+            <h6 id="cont-head">Connect with us</h6><br>
+            <div class="row text-center">
+                <div class="col text-center">
+                    <a class="mx-2" href="https://www.instagram.com/focalcommunityofficial/" target="_blank"><img id="insta1" src="./media/instagram.png" alt=""></a>
+                    <a  class="mx-2" href="https://www.linkedin.com/company/focal-community/" target="_blank"><img id="in1" src="./media/linkedin1.png" alt=""></a>
+                    <a  class="mx-2" href="https://chat.whatsapp.com/DOIUb4ieoAe0tJJQc0mop3" target="_blank"><img id="wp1" src="./media/wp-icon.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+    <div class="container">
+        <div class="inner text-center">
+            <a href="https://chat.whatsapp.com/DOIUb4ieoAe0tJJQc0mop3" target="_blank"><button class="btn btn-primary">Join our Community!</button></a>
+        </div>
+    </div><br><br>
+    <div class="container">
+        <div class="footer text-center">
+            <h6>Powered by</h6>
+            <img id="foot-img" src="./media/name-logo.png" alt="">
+            <p class="text-secondary">Coming soon</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
