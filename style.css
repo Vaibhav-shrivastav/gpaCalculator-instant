@@ -17,7 +17,7 @@
 #foot-img{
     height: 40px;
 }
-#cred-head, #cont-head{
+#cred-head,#cont-head{
     text-decoration: underline;
     font-family: 'Jost', Courier, monospace;
     font-size: 24px;
@@ -57,8 +57,8 @@
     font-size: 35px;
 }
 #reshead{
-    font-family: 'Rubik Microbe', Courier, monospace;
-    font-size: 35px;
+    font-family: 'Marhey', Courier, monospace;
+    font-size: 30px;
     color: black;
 }
 #Grade{
