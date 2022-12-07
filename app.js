@@ -91,7 +91,7 @@
             
             document.getElementById('alert').style.display = 'none';
 
-            document.getElementById('res').innerHTML = result.toFixed(1) ;
+            document.getElementById('res').innerHTML = result.toFixed(2) ;
             document.getElementById('first').scrollIntoView({behavior: 'smooth'});
         }
         
